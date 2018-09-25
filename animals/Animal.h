@@ -30,4 +30,10 @@ public:
 
 // Define your animals here
 
+class Bug : public Animal {
+public:
+	Bug(): Animal("Bug bug") {}
+	int GetPower() { return 5; };
+};
+
 #endif  // _ANIMAL_H_
