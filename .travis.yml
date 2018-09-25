@@ -1,0 +1,5 @@
+install: make get-deps
+language: cpp
+compiler: g++
+script: scons
+./configure && make && make test
