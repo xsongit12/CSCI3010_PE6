@@ -28,6 +28,16 @@ public:
 
 };
 
+class Eagle : public Animal {
+public: 
+	Eagle();
+	Animal("MERICA MERICA"){}
+	int GetPower() {return 10; };
+
+
+
+}
+
 // Define your animals here
 
 #endif  // _ANIMAL_H_
