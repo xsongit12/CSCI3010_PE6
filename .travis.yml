@@ -1,6 +1,5 @@
-install: make get-deps
 language: cpp
 script: 
-	-make all
-	-make test
-	-./test
+  -make all
+  -make test
+  -./test
